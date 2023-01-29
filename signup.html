@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="signup.css">
+    <title>Sign Up </title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="signup.css">
+        <script src="script.js"></script>
     </head>
     <style>
         body {
@@ -14,7 +18,7 @@
     <body>
         <div class="wrapper">
             <h2>Cleanup Sign Up</h2>
-            <form action="#">
+            <form action="members.json">
                 <div class="input-box">
                     <input type="text" id="fname" placeholder="Enter your first name" name="fname" required>
                 </div>
@@ -40,8 +44,8 @@
                         <option value="vc">Van Cleve Park</option>
                     </select>
                 </div>
-                <div class="input-box button">
-                    <input type="submit" value="Register Now">
+                <div class="input-box button"> 
+                    <input id="button" type="submit" value="Register Now">
                 </div>
                 <div class="text">
                     <h3><a href="home.html">Return Home</a></h3>
@@ -49,4 +53,5 @@
             </form>
         </div>
     </body>
+    <span id="output" value=""></span>
 </html>

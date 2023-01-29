@@ -1,11 +1,17 @@
 body {
 	font-family: Tahoma;
 }
+
 a {
     text-align: right;
-    color: maroon;
+    color: #7a0019;
     text-decoration: none;
 }
+
+a:hover {
+	text-decoration: underline;
+}
+
 header {
 	text-align: center;
 	padding: 5px;
@@ -14,14 +20,10 @@ header {
 
 #calendar {
 	width: 95%;
+	height: 935px;
     margin: auto;
+	margin-bottom: 5%;
 }
-
-#calendar a {
-	color: #8e352e;
-	text-decoration: none;
-}
-
 #calendar ul {
 	list-style: none;
 	padding: 0;
@@ -42,7 +44,7 @@ header {
 
 #calendar ul.weekdays {
 	height: 40px;
-	background: #8e352e;
+	background: #7a0019;
 }
 
 #calendar ul.weekdays li {
