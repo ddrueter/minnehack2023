@@ -13,7 +13,7 @@ p {
 
 body {
 	padding: 0;
-	background-color: #f9f7f6;
+	background-color: #f0efee;
 	font-size: 13px;
 	color: #ffcc33;
 }
@@ -30,14 +30,28 @@ ul {
 }
 
 .navbar-left {
-	width: 50%;
+	width: 62.5%;
 	display: flex;
 }
 
 .navbar-right {
 	direction: rtl;
-	width: 50%;
+	width: 37.5%;
 	display: flex;
+}
+
+.logo {
+	max-height: 55px;
+	padding: 0px 31.25px;
+}
+
+.spacer {
+	width: 5%;
+}
+
+li img {
+	height: 50px;
+	margin: 2.5px 0px;
 }
 
 li a, li a:visited {

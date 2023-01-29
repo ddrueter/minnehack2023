@@ -24,22 +24,21 @@ body {
     text-align: center;
 }
 
-.wrapper .info {
-    padding: 10px 0px;
-}
-
+.wrapper .info,
+.wrapper .scoring,
 .wrapper .contact {
-    padding: 10px 0px;
+    padding: 10px 0px 30px;
 }
 
-.wrapper h1{
+.wrapper h1 {
     position: relative;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 600;
     color: #333;
+    margin-bottom: 10px;
 }
 
-.wrapper .contact a{
+.wrapper .contact a {
     position: relative;
     color: #333;
     margin: 10px 0px;
@@ -49,14 +48,14 @@ body {
     padding: 25px 0px;
 }
 
-.wrapper .home a{
+.wrapper .home a {
     position: relative;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
-    color: #333;
+    color: #7a0019;
     text-decoration: none;
 }
 
-.wrapper .home a:onhover{
+.wrapper .home a:hover {
     text-decoration: underline;
 }
